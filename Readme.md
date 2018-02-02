@@ -22,4 +22,6 @@ A segunda diz respeito ao campo de submissão do formulário. Este campo pode se
 
 Por padrão, ao submeter o formulário, os dados preenchidos nos campos serão enviados para algum script server-side na url contida no atributo action da tag form, através do método definido no atributo method, em uma lista de chave/valor cuja chave é definida no atributo name de cada elemento e o valor será o que foi preenchido pelo usuário.
 
+Ainda foi abordada uma estilização básica do formulário com CSS, que não deveria estar nesse guia sim nos guias de CSS, portante será ignorada desse resumos.
+
 O formulário codificado como exemplo desse tópico está disponível em https://itamarsilvacc.github.io/gfh-mdn/#tcp-1.
