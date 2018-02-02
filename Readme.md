@@ -4,6 +4,6 @@ Este repositório armazena códigos dos exemplos e sugestões do Guia de Formul�
 
 O propósito deste repositório, faz parte de uma reciclagem e amadurecimento no desenvolvimento web atual, solidificando as bases e expandindo o leque de ferramentas para automatização e ganho de performance, tanto no desenvolvimento quanto na solução em si.
 
-Os exemplos serão divididos pastas de acordo com os tópicos dessa seção na MDN.
+Os exemplos serão divididos em seções de acordo com os tópicos dessa guia na MDN.
 
 ## Tópico 1: Meu primeiro Formulário HTML

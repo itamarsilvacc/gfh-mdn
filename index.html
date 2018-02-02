@@ -5,11 +5,43 @@
 	<title>Guia de Formulários HTML (MDN)</title>
 </head>
 <body>
-	<h1>Guia de Formulários HTML (MDN)</h1>
-	<p>Este repositório armazena códigos dos exemplos e sugestões do Guia de Formulários HTML da MDN disponível para navegação a partir do link <a href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms" target="_blank">https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms</a>.</p>
-	<p>O propósito deste repositório, faz parte de uma reciclagem e amadurecimento no desenvolvimento web atual, solidificando as bases e expandindo o leque de ferramentas para automatização e ganho de performance, tanto no desenvolvimento quanto na solução em si.</p>
-	<p>Os exemplos serão divididos pastas de acordo com os tópicos dessa seção na MDN.</p>
+	<header>
+		<h1>Guia de Formulários HTML (MDN)</h1>
+	</header>
+	<main>
+		<section>
+			<header>
+				<h1>Propósito</h1>
+			</header>
+			<p>Este repositório armazena códigos dos exemplos e sugestões do Guia de Formulários HTML da MDN disponível para navegação a partir do link <a href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms" target="_blank">https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms</a>.</p>
+			<p>O propósito deste repositório, faz parte de uma reciclagem e amadurecimento no desenvolvimento web atual, solidificando as bases e expandindo o leque de ferramentas para automatização e ganho de performance, tanto no desenvolvimento quanto na solução em si.</p>
+			<p>Os exemplos serão divididos em seções de acordo com os tópicos dessa guia na MDN.</p>
 
-	<h2><a href="https://itamarsilvacc.github.io/gfh-mdn/tcp-1">Tópico 1: Meu primeiro Formulário HTML</a></h2>
+			<a href="#tcp-1">Tópico 1: Meu primeiro Formulário HTML</a></h2>
+		</section>
+		
+		<section id="tcp-1">
+			<header>
+				<h1>Meu primeiro formulário HTML</h1>
+			</header>
+		
+			<form action="/" method="post">
+				<div>
+					<label for="name">Nome</label>
+					<input type="text" name="name" />
+				</div>
+
+				<div>
+					<label for="email">Email</label>
+					<input type="email" name="email" />
+				</div>
+
+				<div>
+					<label for="message">Mensagem</label>
+					<textarea name="message"></textarea>
+				</div>
+			</form>
+		</section>
+	</main>
 </body>
 </html>
